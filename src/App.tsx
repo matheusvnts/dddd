@@ -64,7 +64,7 @@ return (
         <img
           src="https://i.ibb.co/nMJZVXC1/Chat-GPT-Image-10-de-abr-de-2025-17-31-06-copiar.png"
           alt="Logo"
-          className="h-8"
+          className="h-16"
         /> {/* Logo */}
         <button
           onClick={handleWhatsAppClick}
