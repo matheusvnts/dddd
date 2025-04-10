@@ -74,14 +74,16 @@ return (
         </button>
       </div>
     </nav>
-      {/* Hero Section */}
-      <section 
-        className="pt-24 pb-12 relative bg-cover bg-center"
-        style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1744297036372-70f444b7a39e?q=80&w=1687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
-          height: '100vh'
-        }}
-      >
+
+    {/* Hero Section */}
+    <section
+      className="pt-24 pb-12 relative bg-cover bg-center"
+      style={{
+        backgroundImage:
+          'url("https://images.unsplash.com/photo-1744297036372-70f444b7a39e?q=80&w=1687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+        height: '100vh',
+      }}
+    >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-4 py-16 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
