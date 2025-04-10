@@ -56,21 +56,24 @@ function App() {
     }
   ];
 
-  return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Navbar */}
-      <nav className="fixed w-full bg-black/90 backdrop-blur-sm z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <img src="https://i.ibb.co/nMJZVXC1/Chat-GPT-Image-10-de-abr-de-2025-17-31-06-copiar.png" alt="Logo" className="h-8" /> {/* Logo */}
-          <button
-            onClick={handleWhatsAppClick}
-            className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-full transition-all"
-          >
-            Agendar Aula
-          </button>
-        </div>
-      </nav>
-    </div>
+return (
+  <div className="min-h-screen bg-gray-50">
+    {/* Navbar */}
+    <nav className="fixed w-full bg-black/90 backdrop-blur-sm z-50">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <img
+          src="https://i.ibb.co/nMJZVXC1/Chat-GPT-Image-10-de-abr-de-2025-17-31-06-copiar.png"
+          alt="Logo"
+          className="h-8"
+        /> {/* Logo */}
+        <button
+          onClick={handleWhatsAppClick}
+          className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-full transition-all"
+        >
+          Agendar Aula
+        </button>
+      </div>
+    </nav>
       {/* Hero Section */}
       <section 
         className="pt-24 pb-12 relative bg-cover bg-center"
