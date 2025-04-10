@@ -61,7 +61,7 @@ function App() {
       {/* Navbar */}
       <nav className="fixed w-full bg-black/90 backdrop-blur-sm z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-yellow-400 text-2xl font-bold">DIREÇÃO SEM MEDO</h1>
+          <img src="https://i.ibb.co/nMJZVXC1/Chat-GPT-Image-10-de-abr-de-2025-17-31-06-copiar.png" alt="Logo" className="h-8" /> {/* Logo */}
           <button
             onClick={handleWhatsAppClick}
             className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-full transition-all"
@@ -70,12 +70,12 @@ function App() {
           </button>
         </div>
       </nav>
-
+    </div>
       {/* Hero Section */}
       <section 
         className="pt-24 pb-12 relative bg-cover bg-center"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80&w=2070")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1744297036372-70f444b7a39e?q=80&w=1687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
           height: '100vh'
         }}
       >
